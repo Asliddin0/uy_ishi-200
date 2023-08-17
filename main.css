@@ -13,5 +13,17 @@ ul {
 
 .container {
     width: 1200px;
-    
+
+}
+.text {
+    color: yellow;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.title:hover {
+    color: yellow;
+}
+.title:hover~ .text{
+    color: #fff;
 }
